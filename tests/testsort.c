@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "sosanh.c"
 #include "prnarr.c"
 #include "../ham/sort.c"
