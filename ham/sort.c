@@ -45,12 +45,12 @@ int i=0;
 while (i<n){
 
 if (a==tmp) {
-  x[i]=x1[a];
+  x[i]=x1[b];
   ++b;
   ++i;
 }
-else if (b==n-1) {
-  x[i]=x1[b];
+else if (b==n) {
+  x[i]=x1[a];
   ++a;
   ++i;
 }

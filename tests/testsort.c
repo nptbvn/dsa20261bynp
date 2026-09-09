@@ -20,7 +20,7 @@ return 0;
 }
 }
 else {
-printf("I:NULL");
+//printf("I:NULL");
 return -1;
 }
 return 1;
@@ -40,19 +40,20 @@ int r=0;
 if (!testfx(ham,t1,t1r,10)) r++;
 if (!testfx(ham,t2,t2r,8)) r++;
 if (testfx(ham,t3,t1r,0)!=-1) r++;
-else printf(" Qua test\n");
+else printf(" Qua test\n\n");
 if (!testfx(ham,t4,t4r,1)) r++;
+else printf(" Qua test\n\n");
 if (!testfx(ham,t5,t5r,5)) r++;
 if (r==0) printf("QUA HẾT TẤT CẢ TEST\n");
 else printf("TẠCH %d/5 TEST\n",r);
 }
 
 int main(){
-printf("======Test Bubble sort");
+printf("=====>Test Bubble sort\n");
 testsort(bbsort);
-printf("\n\n======Test Insertion sort");
+printf("\n\n=====>Test Insertion sort\n");
 testsort(insertionsort);
-printf("\n\n======Test Merge sort");
+printf("\n\n=====>Test Merge sort\n");
 testsort(mergesort);
 return 0;
 }
