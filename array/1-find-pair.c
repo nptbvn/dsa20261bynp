@@ -8,7 +8,7 @@ mergesort(x,n);
 int l=0;
 int r=n-1;
 while (l<r){
-  if (x[l]+x[r]==s) {printf ("Pair found (%d, %d)\n",x[r],x[l]);f=1;l++;r--;}
+  if (x[l]+x[r]==s) {printf ("Pair found (%d, %d)\n", x[r], x[l]);f=1;l++;r--;}
   else if (x[l]+x[r]<s) l++;
   else r--;
 }
