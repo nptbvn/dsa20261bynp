@@ -5,13 +5,15 @@
 void findpair(int* x,int n, int s){
 bool f=0;
 mergesort(x,n);
-for (int i=0; i<n; ++i){
-if (x[i]>s/2) {if (f==0) printf("Pair not found\n");return;}
-for (int j=n-1; j>i; --j){
-  if (x[i]+x[j]==s) {printf ("Pair found (%d, %d)\n",x[j],x[i]);f=1;}
-  else if (x[i]+x[j]<s) break;
+int l=0;
+int r=n-1;
+while (l<r){
+  if (x[l]+x[r]==s) {printf ("Pair found (%d, %d)\n",x[r],x[l]);f=1;l++;r--;}
+  else if (x[l]+x[r]<s) l++;
+  else r--;
 }
-}
+if (f==0) printf("Pair not found\n");
+return;
 }
 
 int main(){
