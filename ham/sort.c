@@ -4,7 +4,7 @@ if (n<0 || x==NULL) return -1;
 for (int i=1; i<n; ++i){
   int tmp=x[i];
   int j=i-1;
-  while (j>=0 && x[j]>x[j+1]){
+  while (j>=0 && x[j]>tmp){
     x[j+1]=x[j];
     j--;
   }
