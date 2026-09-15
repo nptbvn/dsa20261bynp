@@ -3,7 +3,7 @@
 
 
 typedef struct {
-//int* id;
+int* id;
 char* usrname;
 char* displayname;
 } pubUser;

@@ -1,6 +1,7 @@
 #ifndef USERDT
 #define USERDT
 
+#include "publicUserData.h"
 /*
 typedef struct {
 int id;
@@ -11,6 +12,6 @@ typedef struct {
 int id;
 pubUser info;
 //usrSecret secret;
-usrAnl usrx;
+//usrAnl usrx;
 } user;
 #endif
