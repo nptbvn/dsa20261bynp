@@ -54,5 +54,7 @@ printf("\n\n=====>Test Insertion sort\n");
 testsort(insertionsort);
 printf("\n\n=====>Test Merge sort\n");
 testsort(mergesort);
+printf("\n\n=====>Test Quick sort\n");
+testsort(qsort);
 return 0;
 }
