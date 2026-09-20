@@ -72,3 +72,30 @@ else {
 return 0;
 }
 
+//Quicksort tăng dần
+int qsort(int* x, int n){
+if (n<1 || x==NULL) return -1;
+if (n==1) return 1;
+//Partition step
+int tmp=x[n-1];
+int i=0; //vị trí mà sẽ đặt phần tử đc chọn
+for (int j=0;j<n-1;++j){
+if (x[j]<tmp){
+int temp=x[j];
+x[j]=x[i];
+x[i]=temp;
+++i;
+}
+}
+x[n-1]=x[i];
+x[i]=tmp;
+
+//printintarr(x,n);
+
+//Vòng đệ quy
+qsort(x,i);
+qsort(x+i+1,n-i-1);
+
+//printintarr(x,n);
+return 0;
+}
