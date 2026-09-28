@@ -1,4 +1,5 @@
 #include<stdlib.h>
+#include<stdbool.h>
 //stacks
 bool initintstack (intstack* x, int n){
 if (x==NULL || n<=0) return 1;
@@ -103,3 +104,7 @@ l=x->n+tmp;
 x->n=n;
 return 0;
 }
+
+bool llsearch(ll* x, int k){}
+bool llinsert(ll* x, int y){}
+bool lldelete(ll* x, int y){}

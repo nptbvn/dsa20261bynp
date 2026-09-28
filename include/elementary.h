@@ -1,6 +1,6 @@
 #ifndef ELE_DS
 #define ELE_DS 
-
+#include<stdbool.h>
 
 //stacks
 typedef struct {
@@ -38,4 +38,25 @@ int* dt;
 bool initintqueue(intqueue* x, int n);
 bool enqueueint(intqueue* x, int y);
 bool expandqueueint(intqueue* x, int n);
+
+//linked lists
+typedef struct {
+llnode* prev;
+llnode* next;
+int key;
+int dt;
+} llnode;
+
+
+
+
+
+typedef struct {
+llnode* head;
+} ll;
+
+bool llsearch(ll* x, int k);
+bool llinsert(ll* x, llnode* y);
+bool lldelete(ll* x, llnode* y);
+
 #endif
