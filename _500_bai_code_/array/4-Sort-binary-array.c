@@ -1,6 +1,6 @@
 // 4. Sort binary array in linear time
 #include <stdio.h>
-#include "../tests/prnarr.c"
+#include "../../tests/prnarr.c"
 void sortbin(int* x, int n){
 int c=0;
 for (int i=0; i<n; ++i) if (x[i]==0) c++;

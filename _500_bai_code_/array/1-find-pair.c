@@ -1,6 +1,6 @@
 // 1.Find a pair with the given sum in an array
 #include <stdio.h>
-#include "../ham/sort.c"
+#include "../../ham/sort.c"
 
 void findpair(int* x,int n, int s){
 bool f=0;
