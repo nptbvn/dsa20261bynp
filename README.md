@@ -1,5 +1,5 @@
 # DSA-20261 Project by Nguyen Duc Phat-202514310
-- Project được biên dịch bởi gcc (Ubuntu 15.2.0-16ubuntu1) (và tác giả đã kiểm thử thành công trên môi trường này trước khi commit, với các đoạn chương trình hoàn chỉnh thì file binary được push lên git), có một vài vị trí trong repo sử dụng UTF-8 cài đặt sẵn trên Ubntu nên có thể gặp một số lỗi hiển thị trên một số OS khác, quí độc giả vui lòng kiểm tra cài đặt môi trường trước khi thực thi!
+- Project được biên dịch bởi gcc (Ubuntu 15.2.0-16ubuntu1) (và tác giả đã kiểm thử thành công trên môi trường này trước khi commit, với các đoạn chương trình hoàn chỉnh thì file binary được push lên git), có một vài vị trí trong repo sử dụng UTF-8 cài đặt sẵn trên Ubuntu nên có thể gặp một số lỗi hiển thị trên một số OS khác, quí độc giả vui lòng kiểm tra cài đặt môi trường trước khi thực thi!
 - Project có thể sử dụng một số nguồn mở chỉ với mục đích học tập, nhưng chỉ sử dụng nhằm mục đích học tập, không phục vụ mục đích thương mại. Vui lòng chú ý sử dụng!
 
 - Một số Data structure cơ bản được xây dựng ở ./ds và Một số hàm cơ bản thường hay sử dụng đc định nghĩa tại ./ham để tiết kiệm thời gian thay vì làm những hoạt động trống rỗng. Các bài tập được đặt tại các thư mục trong cùng repo để đảm bảo tính kế thừa, vận động đi lên theo biện chứng duy vật.

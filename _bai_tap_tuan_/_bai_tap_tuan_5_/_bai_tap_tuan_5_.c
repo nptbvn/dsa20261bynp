@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"../../tests/prnarr.c"
+#include"prnarr.c"
 //selectionSort
 int selectionSort(int* x, int n){
 if (n<0 || x==NULL) return -1;
